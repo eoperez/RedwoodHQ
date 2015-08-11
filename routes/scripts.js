@@ -118,7 +118,8 @@ exports.CreateNewProject = function(projectName,language,template,callback){
             template = "java_project_selenium";
         }
         else{
-            template = "java_project";
+            // template = "java_project";
+        	template = template.toLowerCase();
         }
         //templatePath = path.resolve(__dirname,"../project_templates/"+"multi_test");
         templatePath = path.resolve(__dirname,"../project_templates/"+template);

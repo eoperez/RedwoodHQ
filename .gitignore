@@ -11,3 +11,4 @@ compiled
 ant
 log
 test
+.sync.ffs_db

@@ -104,9 +104,9 @@ Ext.define('Redwood.view.ProjectEdit', {
                 {
                     xtype:'combo',
                     fieldLabel: 'Project Template',
-                    store: ["Default","Selenium"],
+                    store: ["Selenium","Learn"],
                     name: 'template',
-                    value:"Default",
+                    value:"Selenium",
                     forceSelection: true,
                     editable: false,
                     allowBlank: false,
